@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    height: 400px;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 36px 36px;
+}
+.content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #374151;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map {
+  flex: 2;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+.frame {
+  height: 400px;
+}

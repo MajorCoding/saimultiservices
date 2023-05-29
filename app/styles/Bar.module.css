@@ -1,0 +1,42 @@
+.bar {
+  padding: 10px 0;
+  background: #111827;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.barContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .left {
+    display: block;
+  }
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.item i {
+  font-size: 20px;
+  color: #ea580c;
+}
+
+.item p {
+  font-size: 14px;
+  color: #e5e7eb;
+}

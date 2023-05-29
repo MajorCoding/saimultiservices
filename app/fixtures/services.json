@@ -1,0 +1,518 @@
+[
+  {
+    "id": "1",
+    "slug": "income-certificate",
+    "english": {
+      "title": "Income Certificate",
+      "disc": "Income certificate is useful for various purposes like obtaining admissions in schools, getting a loan for education, saving your income from income tax, as well as to get various other certificates like Aadhar card, ration card, domicile certificate, caste certificate, etc.",
+      "eligiblity": "Any individual who is employed and a resident of Maharashtra is eligible to apply for a Maharashtra income certificate.",
+      "document": [
+        {
+          "id": 1,
+          "title": "Age Proof",
+          "options": "Applicant Birth Certificate /School leaving Certificate/ Pan Card."
+        },
+        {
+          "id": 2,
+          "title": "Address Proof",
+          "options": "Ration Card / Voter ID /Passport/ Driving License /Electricity bill/ Water bill / property tax receipt."
+        },
+        {
+          "id": 3,
+          "title": "Photograph",
+          "options": "Applicant passport size photograph."
+        },
+        {
+          "id": 4,
+          "title": "Identity Proof",
+          "options": "Aadhar Card / Voter ID /Driving License."
+        },
+        {
+          "id": 5,
+          "title": "Proof of Income",
+          "options": "Form 16 if salaried, income tax return statement, salary slip."
+        }
+      ]
+    },
+    "marathi": {
+      "title": "उत्पन्नाचा दाखला",
+      "disc": "शाळांमध्ये प्रवेश मिळवणे, शिक्षणासाठी कर्ज घेणे, आयकरातून तुमचे उत्पन्न वाचवणे, तसेच आधार कार्ड, रेशनकार्ड, अधिवास प्रमाणपत्र, जातीचे प्रमाणपत्र इत्यादी विविध प्रमाणपत्रे मिळविण्यासाठी उत्पन्नाचे प्रमाणपत्र उपयुक्त आहे.",
+      "eligiblity": "नोकरदार आणि महाराष्ट्रातील रहिवासी असलेली कोणतीही व्यक्ती महाराष्ट्र उत्पन्न प्रमाणपत्रासाठी अर्ज करण्यास पात्र आहे.",
+      "document": [
+        {
+          "id": 1,
+          "title": "वयाचा पुरावा",
+          "options": "अर्जदाराचा जन्म दाखला/शाळा सोडल्याचा दाखला/पॅन कार्ड."
+        },
+        {
+          "id": 2,
+          "title": "पत्ता पुरावा",
+          "options": "रेशनकार्ड/मतदार ओळखपत्र/पासपोर्ट/ड्रायव्हिंग लायसन्स/वीज बिल/पाणी बिल/मालमत्ता कर पावती."
+        },
+        {
+          "id": 3,
+          "title": "फोटो",
+          "options": "अर्जदाराचा पासपोर्ट आकाराचा फोटो."
+        },
+        {
+          "id": 4,
+          "title": "ओळख पुरावा",
+          "options": "आधार कार्ड / मतदार ओळखपत्र / ड्रायव्हिंग लायसन्स."
+        },
+        {
+          "id": 5,
+          "title": "उत्पन्नाचा पुरावा",
+          "options": "पगारदार असल्यास फॉर्म 16, आयकर विवरणपत्र, पगार स्लिप."
+        }
+      ]
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "2",
+    "slug": "caste-certificate",
+    "english": {
+      "title": "Caste Certificate",
+      "disc": "A caste certificate is a documentary evidence that certifies that a person belongs to a particular caste. Caste certificate is an essential document through which citizens of Maharashtra state can get various benefits.",
+      "eligiblity": "Indian citizens belonging to Scheduled Castes and Scheduled Tribes are issued caste certificate.",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father",
+          "options": "Aadhaar Card, Voter Card, Ration Card, Caste Certificate, TC / Entry Exit"
+        },
+        {
+          "id": 2,
+          "title": "Beneficiary",
+          "options": "Aadhaar Card TC/Entry Exit"
+        },
+        {
+          "id": 3,
+          "title": "At least two relatives",
+          "options": "Aadhaar Card, Caste Certificate, TC/Entry Exit, Passport photos of all above"
+        }
+      ]
+    },
+    "marathi": {
+      "title": "उत्पन्नाचा दाखला",
+      "disc": "शाळांमध्ये प्रवेश मिळवणे, शिक्षणासाठी कर्ज घेणे, आयकरातून तुमचे उत्पन्न वाचवणे, तसेच आधार कार्ड, रेशनकार्ड, अधिवास प्रमाणपत्र, जातीचे प्रमाणपत्र इत्यादी विविध प्रमाणपत्रे मिळविण्यासाठी उत्पन्नाचे प्रमाणपत्र उपयुक्त आहे.",
+      "eligiblity": "नोकरदार आणि महाराष्ट्रातील रहिवासी असलेली कोणतीही व्यक्ती महाराष्ट्र उत्पन्न प्रमाणपत्रासाठी अर्ज करण्यास पात्र आहे.",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे",
+          "options": "आधार काड, मतदान कार्ड, रेशन कार्ड, जात प्रमाणपत्र, टीसी /प्रवेश निर्गम"
+        },
+        {
+          "id": 2,
+          "title": "लाभार्थी",
+          "options": "आधार कार्ड टीसी/प्रवेश निर्गम"
+        },
+        {
+          "id": 3,
+          "title": "किमान दोन नातेवाईकांचे",
+          "options": "आधार कार्ड, जात प्रमाणपत्र, टीसी/प्रवेश निर्गम वरील सर्वांचे पासपोर्ट फोटो"
+        }
+      ]
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "3",
+    "slug": "caste-validity-certificate",
+    "english": {
+      "title": "Caste Validity Certificate",
+      "disc": "A caste certificate is a document that confirms that a person belongs to either the SC, ST, or OBC community. We often refer to a caste certificate as a community certificate. A caste validity certificate is proof that you hold an authentic caste certificate and that you aren’t pretending to belong to one of the backward categories to take advantage of the government benefits.",
+      "eligiblity": "Evidence of one's own or a blood relative's caste. A passage from the applicant's father's or another relative's government service record mentioning the caste or community group",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father",
+          "options": "Aadhaar Card, Voter Card, Ration Card, Caste Certificate, TC / Entry Exit"
+        },
+        {
+          "id": 2,
+          "title": "Beneficiary",
+          "options": "Aadhaar Card TC/Entry Exit"
+        },
+        {
+          "id": 3,
+          "title": "At least two relatives",
+          "options": "Aadhaar Card, Caste Certificate, TC/Entry Exit, Passport photos of all above"
+        }
+      ]
+    },
+    "marathi": {
+      "title": "जात वैधता प्रमाणपत्र",
+      "disc": "जात प्रमाणपत्र हे एक दस्तऐवज आहे जे पुष्टी करते की एखादी व्यक्ती SC, ST किंवा OBC समाजातील आहे. आपण अनेकदा जात प्रमाणपत्राला सामुदायिक प्रमाणपत्र म्हणून संबोधतो. जात वैधता प्रमाणपत्र हा पुरावा आहे की तुमच्याकडे प्रामाणिक जात प्रमाणपत्र आहे आणि तुम्ही सरकारी लाभांचा लाभ घेण्यासाठी मागास प्रवर्गातील असल्याचे भासवत नाही आहात.",
+      "eligiblity": "स्वतःच्या किंवा रक्ताच्या नातेवाईकाच्या जातीचा पुरावा. अर्जदाराच्या वडिलांच्या किंवा अन्य नातेवाईकाच्या सरकारी सेवा रेकॉर्डमधील जात किंवा समुदायाचा उल्लेख असलेला उतारा",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे",
+          "options": "आधार काड, मतदान कार्ड, रेशन कार्ड, जात प्रमाणपत्र, टीसी /प्रवेश निर्गम"
+        },
+        {
+          "id": 2,
+          "title": "लाभार्थी",
+          "options": "आधार कार्ड टीसी/प्रवेश निर्गम"
+        },
+        {
+          "id": 3,
+          "title": "किमान दोन नातेवाईकांचे",
+          "options": "आधार कार्ड, जात प्रमाणपत्र, टीसी/प्रवेश निर्गम वरील सर्वांचे पासपोर्ट फोटो"
+        }
+      ]
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "4",
+    "slug": "residential-certificate",
+    "english": {
+      "title": "Residential Certificate",
+      "disc": "Residence certificate is a proof of permanent residence of a citizen in a village or town or ward.  This Certificate is required as proof of residence to avail Residence / Resident Quotas in educational institutions and in the Government Service, and in case of jobs where local residents are preferred.",
+      "eligiblity": "Individuals residing in Maharashtra for at least 15 years are eligible for a domicile certificate",
+      "document": [
+        {
+          "id": 1,
+          "title": "Applicant's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "Voter card of the applicant",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Ration card of the applicant",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Photo",
+          "options": ""
+        }
+      ]
+    },
+    "marathi": {
+      "title": "रहिवासी प्रमाणपत्र",
+      "disc": "रहिवासी प्रमाणपत्र हा एखाद्या नागरिकाच्या गाव किंवा शहर किंवा प्रभागातील कायमस्वरूपी वास्तव्याचा पुरावा आहे. शैक्षणिक संस्थांमध्ये आणि सरकारी सेवेमध्ये निवासी/निवासी कोटा मिळविण्यासाठी आणि स्थानिक रहिवाशांना प्राधान्य असलेल्या नोकऱ्यांच्या बाबतीत हे प्रमाणपत्र रहिवाशाचा पुरावा म्हणून आवश्यक आहे.",
+      "eligiblity": "महाराष्ट्रात किमान १५ वर्षे वास्तव्य करणाऱ्या व्यक्ती अधिवास प्रमाणपत्रासाठी पात्र आहेत",
+      "document": [
+        {
+          "id": 1,
+          "title": "अर्जदाराचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "अर्जदाराचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "अर्जदाराचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "फोटो",
+          "options": ""
+        }
+      ]
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "5",
+    "slug": "nationality-and-domacile",
+    "english": {
+      "title": "Nationality and Domacile",
+      "disc": "Age, Nationality and Domicile  certificate is an official statement provided to the citizen by the state government confirming the age nationality and residence of the applicant.",
+      "eligiblity": "Any person from the State of Maharashtra could obtain this certificate, provided that he/she is a resident in the State for the last 15 years",
+      "document": [
+        {
+          "id": 1,
+          "title": "Applicant's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "Voter card of the applicant",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Ration card of the applicant",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Beneficiary Aadhaar Card and TC",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "Beneficiary Municipal resident (if urban)",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "Applicant and Beneficiary - Photo",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "marathi": {
+      "title": "वय, राष्ट्रीयत्व आणि अधिवास प्रमाणपत्र",
+      "disc": "रहिवासी प्रमाणपत्र हा एखाद्या नागरिकाच्या गाव किंवा शहर किंवा प्रभागातील कायमस्वरूपी वास्तव्याचा पुरावा आहे. शैक्षणिक संस्थांमध्ये आणि सरकारी सेवेमध्ये निवासी/निवासी कोटा मिळविण्यासाठी आणि स्थानिक रहिवाशांना प्राधान्य असलेल्या नोकऱ्यांच्या बाबतीत हे प्रमाणपत्र रहिवाशाचा पुरावा म्हणून आवश्यक आहे.",
+      "eligiblity": "महाराष्ट्र राज्यातील कोणतीही व्यक्ती हे प्रमाणपत्र मिळवू शकते, परंतु ती/ती गेल्या 15 वर्षांपासून राज्यातील रहिवासी पाहीजे.",
+      "document": [
+        {
+          "id": 1,
+          "title": "अर्जदाराचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "अर्जदाराचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "अर्जदाराचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "​लाभार्थी आधार कार्ड व टीसी",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "लाभार्थी महानगरपालिका रहिवासी (शहरी असल्यास)",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "अर्जदार व लाभार्थी - फोटो",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "6",
+    "slug": "non-creamy-layer",
+    "english": {
+      "title": "Non-creamy layer",
+      "disc": "The non-creamy layer is called merely as the OBC (Other Backward Class). The creamy layer or the non-creamy layer certificate is issued for the people belonging to the OBC community based on their socio-economic status. Apart from the income, there are specific other criteria to be considered for government servants to fall under the non-creamy layer.",
+      "eligiblity": "The applicant should be a citizen of India. The applicant should be a permanent resident of Maharashtra.",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "Voter card of father",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Father's ration card",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Father's 3 years Tehsil Income Certificate",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "If father is employed, his last 3 years salary slip or form no 16",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "Beneficiary Aadhaar Card, TC, Caste Certificate",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "Photo",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "marathi": {
+      "title": "नॉन क्रिमी लेयर प्रमाणपत्र",
+      "disc": "नॉन-क्रिमी लेयरला फक्त ओबीसी (इतर मागासवर्गीय) म्हटले जाते. OBC समाजातील लोकांना त्यांच्या सामाजिक-आर्थिक स्थितीच्या आधारावर क्रीमी लेयर किंवा नॉन-क्रिमी लेयर प्रमाणपत्र जारी केले जाते. उत्पन्नाव्यतिरिक्त, सरकारी नोकरांना नॉन-क्रिमी लेयर अंतर्गत येण्यासाठी काही विशिष्ट निकषांचा विचार केला जातो.",
+      "eligiblity": "अर्जदार हा भारताचा नागरिक असावा. अर्जदार हा महाराष्ट्राचा कायमचा रहिवासी असावा.",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "वडिलांचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "वडिलांचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "वडिलांचे ३ वर्षाचे तहसील उत्पन्न प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "वडील नौकरी करत असतील तर त्यांचे मागील ३ वर्षाचे पगार पत्रक किंवा फॉर्म नं १६",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "लाभार्थी आधार कार्ड, टीसी, जातीचे प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "लाभार्थी - फोटो",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "7",
+    "slug": "ews-certificate",
+    "english": {
+      "title": "Ews Certificate",
+      "disc": "The EWS certificate is issued to individuals belonging to economically weaker sections of society, enabling them to avail of various government schemes and benefits.",
+      "eligiblity": "Persons who are not covered under the scheme of reservation for SCs, STs and OBCs and whose family has gross annual income below Rs 8 (Rupees eight lakh only) are to be identified as EWSs for benefit of reservation",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "Voter card of father",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Father's ration card",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Father's TC/Entry Exit",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "Father's 1 Year Tehsil Income Certificate",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "If father is employed, his last 1 year salary slip or Form No. 16",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "Beneficiary Aadhaar Card, Voting Card, TC",
+          "options": ""
+        },
+        {
+          "id": 8,
+          "title": "Beneficiary - Photo",
+          "options": ""
+        },
+        {
+          "id": 9,
+          "title": "If father is illiterate admission of brother/sister, exit/TC and Aadhaar",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "marathi": {
+      "title": "नॉन क्रिमी लेयर प्रमाणपत्र",
+      "disc": "नॉन-क्रिमी लेयरला फक्त ओबीसी (इतर मागासवर्गीय) म्हटले जाते. OBC समाजातील लोकांना त्यांच्या सामाजिक-आर्थिक स्थितीच्या आधारावर क्रीमी लेयर किंवा नॉन-क्रिमी लेयर प्रमाणपत्र जारी केले जाते. उत्पन्नाव्यतिरिक्त, सरकारी नोकरांना नॉन-क्रिमी लेयर अंतर्गत येण्यासाठी काही विशिष्ट निकषांचा विचार केला जातो.",
+      "eligiblity": "अर्जदार हा भारताचा नागरिक असावा. अर्जदार हा महाराष्ट्राचा कायमचा रहिवासी असावा.",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "वडिलांचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "वडिलांचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "वडिलांची टीसी/प्रवेश निर्गम",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "वडिलांचे १ वर्षाचे तहसील उत्पन्न प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "​वडील नौकरी करत असतील तर त्यांचे मागील १ वर्षाचे पगार पत्रक किंवा फॉर्म नं १६",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "लाभार्थी आधार कार्ड, मतदान कार्ड, टीसी",
+          "options": ""
+        },
+        {
+          "id": 8,
+          "title": "लाभार्थी - फोटो",
+          "options": ""
+        },
+        {
+          "id": 9,
+          "title": "वडील निरक्षर असल्यास सख्या भावाचे/बहिणीचे प्रवेश निर्गम/टीसी व आधार",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  }
+]

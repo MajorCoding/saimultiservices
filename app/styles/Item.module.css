@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* padding: 20px 16px; */
+  /* background: #f9fafb; */
+  border-radius: 6px;
+}
+
+.icon {
+  padding: 6px 6px 4px 6px;
+  background: #f97316;
+  border-radius: 6px;
+}
+.icon i {
+  font-size: 20px;
+  color: #fff7ed;
+}
+
+.item p {
+  font-size: 15px;
+  color: #4b5563;
+}

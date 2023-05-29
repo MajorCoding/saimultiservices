@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px 0 60px 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    padding: 28px 0 60px 0;
+  }
+}
+
+#marathi .right img {
+  display: none;
+}
+
+.container .left {
+  flex: 2;
+  order: 1;
+  padding: 0 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .container .left {
+    padding: 0 20px 0 0;
+  }
+}
+.container .right {
+  flex: 1;
+  order: 2;
+}
+
+.title {
+  font-size: 30px;
+  color: #ea580c;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.disc {
+  font-size: 16px;
+  line-height: 22px;
+  color: #4b5563;
+  margin-bottom: 36px;
+}
+
+.subTitle {
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.document {
+  font-size: 16px;
+  color: #374151;
+  margin-left: 16px;
+}
+.document li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.document li span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4b5563;
+}
+
+.button {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: #ea580c;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+.button i {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button p {
+  font-size: 14px;
+  color: #fff7ed;
+}
+
+.button:hover {
+  transform: translateY(-6px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

@@ -1,28 +1,14 @@
-import "normalize.css/normalize.css"
-import Section from "./containers/Section"
-import News from "./components/News"
-import Card from "./components/Card"
-import SubSection from "./containers/SubSection"
-import Contact from "./components/Contact"
+import React from "react"
+import Section from "../containers/Section"
+import SubSection from "../containers/SubSection"
+import Card from "../components/Card"
 import Link from "next/link"
 
-export default function Home() {
+const page = () => {
   return (
     <div>
-      <Tranding />
       <Services />
-      <Contact />
     </div>
-  )
-}
-
-const Tranding = () => {
-  return (
-    <Section title="Tranding">
-      <News text="Pradhan Mantri Kisan Urja Suraksha-evam-UtthaanMahabhiyan (PM-KUSUM) Scheme of MEDA" />
-      <News text="MH-CET Registration - 2023" />
-      <News text="Urja Suraksha-evam-UtthaanMahabhiyan (PM-KUSUM) Scheme of MEDA" />
-    </Section>
   )
 }
 
@@ -79,3 +65,5 @@ const Services = () => {
     </Section>
   )
 }
+
+export default page
