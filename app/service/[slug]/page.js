@@ -1,13 +1,12 @@
 "use client"
 import React, { useEffect, useState } from "react"
+import { useParams } from "next/navigation"
 import Breadcrumb from "@/app/components/Breadcrumb"
 import Info from "@/app/components/Info"
 import services from "../../fixtures/services.json"
-import { useParams } from "next/navigation"
 
 const page = () => {
   const params = useParams()
-  const { slug } = params
   const [data, setData] = useState({
     id: "1",
     slug: "income-certificate",
@@ -84,14 +83,11 @@ const page = () => {
   })
 
   useEffect(() => {
-    if (slug) {
-      let filterData = services.filter((i) => i.slug === slug)
-      console.log("filterData: ", filterData[0])
+    if (params.slug) {
+      let filterData = services.filter((i) => i.slug === params.slug)
       setData(filterData[0])
     }
-  }, [])
-
-  console.log("Data Filter: ", data)
+  }, [params.slug])
 
   return (
     <div>

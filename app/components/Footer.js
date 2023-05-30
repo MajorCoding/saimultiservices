@@ -30,7 +30,7 @@ const Footer = () => {
               <div className={styles.box}>
                 <h4>Partner</h4>
                 <div className={styles.links}>
-                  <Image src="/digital-india.svg" width={150} height={80} />
+                  <Image src="/digital-india.svg" width={150} height={80} alt="partner" />
                 </div>
               </div>
             </div>

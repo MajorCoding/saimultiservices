@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Script src="https://unpkg.com/@phosphor-icons/web" />
-      <body className={inter.className}>
+      <body>
         <SideDrawer isOpen={isDrawerOpen} onClose={handleDrawerClose} />
         <TopBar />
         <Header setIsDrawerOpen={handleDrawerOpen} />
