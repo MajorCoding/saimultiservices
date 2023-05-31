@@ -1,13 +1,16 @@
 import React from "react"
 import style from "../styles/Card.module.css"
-const Card = ({ icon, text, ...rest }) => {
+import Link from "next/link"
+const Card = ({ icon, text, to, ...rest }) => {
   return (
-    <div className={style.container} {...rest}>
-      <div className={style.header}>
-        <i className={icon ? icon : "ph-light ph-certificate"}></i>
+    <Link href={to ? to : "/"} className={style.container}>
+      <div {...rest}>
+        <div className={style.header}>
+          <i className={icon ? icon : "ph-light ph-certificate"}></i>
+        </div>
+        <p>{text}</p>
       </div>
-      <p>{text}</p>
-    </div>
+    </Link>
   )
 }
 

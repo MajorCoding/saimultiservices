@@ -3,8 +3,11 @@ import Image from "next/image"
 import Container from "../containers/Container"
 import styles from "../styles/Header.module.css"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 const Header = ({ setIsDrawerOpen }) => {
+  const pathname = usePathname()
+  console.log("ROute: ", pathname)
   return (
     <div className={styles.header}>
       <Container>
@@ -18,7 +21,7 @@ const Header = ({ setIsDrawerOpen }) => {
             <i className="ph ph-list"></i>
           </div>
           <nav className={styles.nav}>
-            <Link href="/service">
+            <Link href="/service" id={pathname == "/service" ? styles.active : ""}>
               <span>Services</span>
             </Link>
             <span>Contact</span>

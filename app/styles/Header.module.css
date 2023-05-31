@@ -29,6 +29,10 @@
   display: none;
 }
 
+#active span {
+  color: #ea580c;
+}
+
 @media (min-width: 768px) {
   .nav {
     display: flex;

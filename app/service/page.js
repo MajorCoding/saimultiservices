@@ -16,28 +16,22 @@ const Services = () => {
   return (
     <Section title="Services">
       <SubSection title={"Necessary Certificates"}>
-        <Link href="/service/income-certificate">
-          <Card text="Income Certificate" />
-        </Link>
-        <Link href="/service/caste-certificate">
-          <Card icon="ph-light ph-note" text="Caste Certificate" />
-        </Link>
-        <Link href="/service/caste-validity-certificate">
-          <Card text="Caste Validity" />
-        </Link>
-        <Link href="/service/residential-certificate">
-          <Card icon="ph-light ph-house-line" text="Residential Certificate" />
-        </Link>
-        <Link href="/service/nationality-and-domacile">
-          <Card icon="ph-light ph-globe-hemisphere-east" text="Nationality and Domacile" />
-        </Link>
-        <Link href="/service/non-creamy-layer">
-          <Card icon="ph-light ph-siren" text="Non Creamy Layer" />
-        </Link>
-        <Link href="/service/ews-certificate">
-          <Card text="EWS Certificate" />
-        </Link>
-        <Card text="EWS Certificate" />
+        <Card text="Income Certificate" to="/service/income-certificate" />
+        <Card icon="ph-light ph-note" text="Caste Certificate" to="/service/caste-certificate" />
+        <Card text="Caste Validity" to="/service/caste-validity-certificate" />
+        <Card
+          icon="ph-light ph-house-line"
+          text="Residential Certificate"
+          to="/service/residential-certificate"
+        />
+        <Card
+          icon="ph-light ph-globe-hemisphere-east"
+          text="Nationality and Domacile"
+          to="/service/nationality-and-domacile"
+        />
+        <Card icon="ph-light ph-siren" text="Non Creamy Layer" to="/service/non-creamy-layer" />
+        <Card text="EWS Certificate" to="/service/ews-certificate" />
+        <Card text="Nationality and Domacile" />
         <Card text="EWS Certificate" />
         <Card icon="ph-light ph-siren" text="Non Creamy Layer" />
       </SubSection>

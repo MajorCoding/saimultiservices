@@ -1,7 +1,6 @@
 .container {
-  /* padding: 24px 36px; */
   padding: 16px;
-  background: #fff;
+  background: #1f2937;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -14,7 +13,6 @@
 }
 
 .container:hover {
-  /* background: linear-gradient(180deg, #ffedd5 0%, #ffffff 85.13%); */
   background: #fff7ed;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: 1px solid #fed7aa;
@@ -26,10 +24,12 @@
 }
 .container:hover p {
   font-weight: 500;
+  color: #9a3412;
 }
 
 .header {
   padding: 10px 0;
+  min-height: 54px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
 .container p {
   font-size: 15px;
   font-weight: 400;
-  color: #1f2937;
+  color: #f9fafb;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }

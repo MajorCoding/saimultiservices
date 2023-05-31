@@ -3,7 +3,6 @@ import Container from "../containers/Container"
 import styles from "../styles/Info.module.css"
 
 const Info = ({ data, type }) => {
-  console.log("Data: ", data)
   return (
     <Container>
       {data && (
