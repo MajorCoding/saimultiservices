@@ -13,18 +13,19 @@
 }
 
 .container:hover {
-  background: #fff7ed;
+  /* background: #fff7ed; */
+  background: #f97316;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: 1px solid #fed7aa;
 }
 .container:hover i {
-  color: #ea580c;
+  color: #ffedd5;
   transform: translateY(-6px);
   transition: transform 0.3s ease-in-out;
 }
 .container:hover p {
   font-weight: 500;
-  color: #9a3412;
+  color: #fff7ed;
 }
 
 .header {

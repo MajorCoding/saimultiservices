@@ -4,8 +4,6 @@ import News from "./components/News"
 import Card from "./components/Card"
 import SubSection from "./containers/SubSection"
 import Contact from "./components/Contact"
-import Link from "next/link"
-import styles from "./styles/Card.module.css"
 
 export default function Home() {
   return (
@@ -31,21 +29,21 @@ const Services = () => {
   return (
     <Section title="Services">
       <SubSection title={"Necessary Certificates"}>
-        <Card text="Income Certificate" to="/service/income-certificate" />
-        <Card icon="ph-light ph-note" text="Caste Certificate" to="/service/caste-certificate" />
-        <Card text="Caste Validity" to="/service/caste-validity-certificate" />
+        <Card text="Income Certificate" to="/services/income-certificate" />
+        <Card icon="ph-light ph-note" text="Caste Certificate" to="/services/caste-certificate" />
+        <Card text="Caste Validity" to="/services/caste-validity-certificate" />
         <Card
           icon="ph-light ph-house-line"
           text="Residential Certificate"
-          to="/service/residential-certificate"
+          to="/services/residential-certificate"
         />
         <Card
           icon="ph-light ph-globe-hemisphere-east"
           text="Nationality and Domacile"
-          to="/service/nationality-and-domacile"
+          to="/services/nationality-and-domacile"
         />
-        <Card icon="ph-light ph-siren" text="Non Creamy Layer" to="/service/non-creamy-layer" />
-        <Card text="EWS Certificate" to="/service/ews-certificate" />
+        <Card icon="ph-light ph-siren" text="Non Creamy Layer" to="/services/non-creamy-layer" />
+        <Card text="EWS Certificate" to="/services/ews-certificate" />
         <Card text="EWS Certificate" />
         <Card text="Nationality and Domacile" />
         <Card icon="ph-light ph-siren" text="Non Creamy Layer" />

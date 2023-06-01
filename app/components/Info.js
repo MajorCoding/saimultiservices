@@ -24,7 +24,7 @@ const Info = ({ data, type }) => {
             </ul>
             <div className={styles.button}>
               <i className="ph ph-whatsapp-logo"></i>
-              <p>{type == "marathi" ? "अधिक जाणून घेण्यासाठी" : "To Know more"} </p>
+              <p>{type == "marathi" ? "अधिक माहिती जाणून घेण्यासाठी" : "For more details"} </p>
             </div>
           </div>
           <div className={styles.right}>

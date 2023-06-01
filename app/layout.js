@@ -7,6 +7,11 @@ import TopBar from "./components/TopBar"
 import Footer from "./components/Footer"
 import SideDrawer from "./components/SideDrawer"
 
+export const metadata = {
+  title: "Sai Multiservices",
+  description: "Income Certificate, Cast Certificate, Non Creamy Lyer",
+}
+
 export default function RootLayout({ children }) {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const handleDrawerOpen = () => {

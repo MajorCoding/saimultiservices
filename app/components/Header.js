@@ -21,7 +21,7 @@ const Header = ({ setIsDrawerOpen }) => {
             <i className="ph ph-list"></i>
           </div>
           <nav className={styles.nav}>
-            <Link href="/service" id={pathname == "/service" ? styles.active : ""}>
+            <Link href="/services" id={pathname == "/services" ? styles.active : ""}>
               <span>Services</span>
             </Link>
             <span>Contact</span>

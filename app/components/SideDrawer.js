@@ -22,7 +22,7 @@ const SideDrawer = ({ isOpen, onClose }) => {
           </Link>
         </div>
         <nav className="sidebar-nav">
-          <Link href="/service" onClick={onClose}>
+          <Link href="/services" onClick={onClose}>
             <span>Services</span>
           </Link>
           <span>Contact</span>
