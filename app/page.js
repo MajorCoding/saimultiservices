@@ -5,13 +5,18 @@ import Card from "./components/Card"
 import SubSection from "./containers/SubSection"
 import Contact from "./components/Contact"
 
+export const metadata = {
+  title: "Sai Multiservices",
+  description: "Income Certificate, Cast Certificate, Non Creamy Lyer",
+}
+
 export default function Home() {
   return (
-    <div>
+    <main>
       <Tranding />
       <Services />
       <Contact />
-    </div>
+    </main>
   )
 }
 

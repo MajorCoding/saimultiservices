@@ -7,7 +7,7 @@ const Section = ({ title, children }) => {
     <Container>
       <div className={section.container}>
         <div className={section.header}>
-          <h3>{title}</h3>
+          <h1>{title}</h1>
         </div>
         <div className={section.body}>{children}</div>
       </div>

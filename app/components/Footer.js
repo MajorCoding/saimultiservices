@@ -4,7 +4,7 @@ import Container from "../containers/Container"
 import Image from "next/image"
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <Container>
         <div className={styles.wrapper}>
           <div className={styles.top}>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </footer>
   )
 }
 

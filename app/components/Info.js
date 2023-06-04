@@ -6,13 +6,13 @@ const Info = ({ data, type }) => {
   return (
     <Container>
       {data && (
-        <div className={styles.container} id={type == "marathi" && styles.marathi}>
+        <div className={styles.container} id={type == "marathi" ? styles.marathi : "english"}>
           <div className={styles.left}>
-            <h2 className={styles.title}>{data.title}</h2>
+            <h1 className={styles.title}>{data.title}</h1>
             <p className={styles.disc}>{data.disc}</p>
-            <h4 className={styles.subTitle}>Eligibility</h4>
+            <h2 className={styles.subTitle}>Eligibility</h2>
             <p className={styles.disc}>{data.eligiblity}</p>
-            <h4 className={styles.subTitle}>Documents Required</h4>
+            <h2 className={styles.subTitle}>Documents Required</h2>
             <ul className={styles.document}>
               {data.document.map((item) => {
                 return (
@@ -28,7 +28,13 @@ const Info = ({ data, type }) => {
             </div>
           </div>
           <div className={styles.right}>
-            <Image src={"/certificate.jpg"} width={343} height={485} alt="certificate-sample" />
+            <Image
+              src={"/certificate.jpg"}
+              width={343}
+              height={485}
+              alt="certificate-sample"
+              priority={true}
+            />
           </div>
         </div>
       )}

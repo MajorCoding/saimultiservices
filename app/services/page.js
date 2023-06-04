@@ -6,9 +6,14 @@ import Link from "next/link"
 import Container from "../containers/Container"
 import styles from "../styles/Breadcrumb.module.css"
 
+export const metadata = {
+  title: "Services",
+  description: "Income Certificate, Cast Certificate, Non Creamy Lyer",
+}
+
 const page = () => {
   return (
-    <div>
+    <main>
       <div className={styles.container}>
         <Container>
           <ul className={styles.list}>
@@ -20,7 +25,7 @@ const page = () => {
         </Container>
       </div>
       <Services />
-    </div>
+    </main>
   )
 }
 
