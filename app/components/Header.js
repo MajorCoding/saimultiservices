@@ -34,7 +34,9 @@ const Header = () => {
             <Link href="/services" id={pathname == "/services" ? styles.active : "noActive"}>
               <span>Services</span>
             </Link>
-            <span>Contact</span>
+            <Link href="/contact" id={pathname == "/contact" ? styles.active : "noActive"}>
+              <span>Contact</span>
+            </Link>
             <div className={styles.button}>
               <i className="ph ph-whatsapp-logo"></i>
               <p>Whatsapp</p>

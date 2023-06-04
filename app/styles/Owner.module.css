@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+}
+
+@media (min-width: 1020px) {
+  .container {
+    margin-top: 58px;
+  }
+}
+
+.photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.label {
+  display: inline-block;
+  padding: 4px 16px;
+  background: #f97316;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 20px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social i {
+  color: #4b5563;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social i:hover {
+  color: #f97316;
+}

@@ -25,7 +25,9 @@ const SideDrawer = ({ isOpen, onClose }) => {
           <Link href="/services" onClick={onClose}>
             <span>Services</span>
           </Link>
-          <span>Contact</span>
+          <Link href="/contact" onClick={onClose}>
+            <span>Contact</span>
+          </Link>
           <div className="button">
             <i className="ph ph-whatsapp-logo"></i>
             <p>Whatsapp</p>

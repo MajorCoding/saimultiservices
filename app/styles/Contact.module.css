@@ -50,5 +50,7 @@
 }
 
 .frame {
+  width: 100%;
+  border: none;
   height: 400px;
 }

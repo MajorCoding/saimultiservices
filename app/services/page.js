@@ -1,4 +1,3 @@
-import React from "react"
 import Section from "../containers/Section"
 import SubSection from "../containers/SubSection"
 import Card from "../components/Card"
