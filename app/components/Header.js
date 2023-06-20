@@ -30,18 +30,31 @@ const Header = () => {
           <div className={styles.burger} onClick={handleDrawerOpen}>
             <i className="ph ph-list"></i>
           </div>
-          <nav className={styles.nav}>
-            <Link href="/services" id={pathname == "/services" ? styles.active : "noActive"}>
-              <span>Services</span>
-            </Link>
-            <Link href="/contact" id={pathname == "/contact" ? styles.active : "noActive"}>
-              <span>Contact</span>
-            </Link>
-            <div className={styles.button}>
-              <i className="ph ph-whatsapp-logo"></i>
-              <p>Whatsapp</p>
+          <div className={styles.contact}>
+            <div className={styles.item}>
+              <div className={styles.icon}>
+                <i className="ph ph-map-pin-line"></i>
+              </div>
+              <div className="content">
+                <h3>Address</h3>
+                <Link target="_blank" href="https://goo.gl/maps/4GLmBaeA9tyTabCVA">
+                  <p>Near pariharclasses, Parbhani</p>
+                </Link>
+              </div>
             </div>
-          </nav>
+            <span></span>
+            <div className={styles.item}>
+              <div className={styles.icon}>
+                <i className="ph ph-phone-call"></i>
+              </div>
+              <div className="content">
+                <h3>Call us now</h3>
+                <Link href="tel:9545170763">
+                  <p>+91-9545170763</p>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     </header>

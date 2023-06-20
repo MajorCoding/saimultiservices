@@ -10,6 +10,13 @@ const Footer = () => {
           <div className={styles.top}>
             <div className={styles.logo}>
               <Image src="/footer-logo.svg" width={180} height={60} alt="footer-logo" />
+              <p>Your One-Stop Solution for Essential Services</p>
+              <div className={styles.social}>
+                <i className="ph ph-facebook-logo"></i>
+                <i className="ph ph-instagram-logo"></i>
+                <i className="ph ph-twitter-logo"></i>
+                <i className="ph ph-github-logo"></i>
+              </div>
             </div>
             <div className={styles.right}>
               <div className={styles.box}>

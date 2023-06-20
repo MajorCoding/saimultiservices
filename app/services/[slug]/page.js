@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Breadcrumb from "@/app/components/Breadcrumb"
 import Info from "@/app/components/Info"
 import services from "../../fixtures/services.json"
@@ -36,23 +35,17 @@ async function getData(params) {
 export default async function page({ params }) {
   const data = await getData(params)
   return (
-    <>
-      <Head>
-        <title>Sling Academy</title>
-        <meta name="description" content="I hope this tutorial is helpful for you" />
-      </Head>
-      <main>
-        {Boolean(data) && data.english.title ? (
-          <>
-            <Breadcrumb title={data.english.title} />
-            <Info data={data.english} />
-            <div className="divider"></div>
-            <Info type="marathi" data={data.marathi} />
-          </>
-        ) : (
-          <NotFound />
-        )}
-      </main>
-    </>
+    <main>
+      {Boolean(data) && data.english.title ? (
+        <>
+          <Breadcrumb title={data.english.title} />
+          <Info data={data.english} />
+          <div className="divider"></div>
+          <Info type="marathi" data={data.marathi} />
+        </>
+      ) : (
+        <NotFound />
+      )}
+    </main>
   )
 }

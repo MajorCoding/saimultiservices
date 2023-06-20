@@ -1,4 +1,37 @@
 .hero {
   width: 100%;
-  min-height: 600px;
+  /* min-height: 600px; */
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 60%, rgba(241, 245, 249, 0.4) 100%); */
+  padding: 36px 0 36px 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 40%, var(--gray100)),
+    url("/pattern.svg");
+  background-size: contain;
+}
+
+.content {
+  margin-bottom: 36px;
+}
+
+.hero h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.hero h1 span {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--gray800);
+}
+
+.hero p {
+  width: 100%;
+  font-size: 15px;
+  color: var(--gray600);
+}
+
+@media (min-width: 768px) {
+  .hero p {
+    width: 70%;
+  }
 }

@@ -67,7 +67,8 @@
       ]
     },
     "whatsappLink": "",
-    "category": "certificate"
+    "category": "certificate",
+    "issued": "Maharashtra Gov"
   },
   {
     "id": "2",
@@ -507,6 +508,210 @@
         {
           "id": 9,
           "title": "वडील निरक्षर असल्यास सख्या भावाचे/बहिणीचे प्रवेश निर्गम/टीसी व आधार",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "7",
+    "slug": "central-caste-certificate",
+    "english": {
+      "title": "Central Caste Certificate",
+      "disc": "Is having documented proof of belonging to a particular caste. It is an essential document that helps to avail various government schemes.",
+      "eligiblity": "Persons who are not covered under the scheme of reservation for SCs, STs and OBCs and whose family has gross annual income below Rs 8 (Rupees eight lakh only) are to be identified as EWSs for benefit of reservation",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "Voter card of father",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Father's ration card",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Father's TC/Entry Exit",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "Father's 1 Year Tehsil Income Certificate",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "If father is employed, his last 1 year salary slip or Form No. 16",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "Beneficiary Aadhaar Card, Voting Card, TC",
+          "options": ""
+        },
+        {
+          "id": 8,
+          "title": "Beneficiary - Photo",
+          "options": ""
+        },
+        {
+          "id": 9,
+          "title": "If father is illiterate admission of brother/sister, exit/TC and Aadhaar",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "marathi": {
+      "title": "नॉन क्रिमी लेयर प्रमाणपत्र",
+      "disc": "नॉन-क्रिमी लेयरला फक्त ओबीसी (इतर मागासवर्गीय) म्हटले जाते. OBC समाजातील लोकांना त्यांच्या सामाजिक-आर्थिक स्थितीच्या आधारावर क्रीमी लेयर किंवा नॉन-क्रिमी लेयर प्रमाणपत्र जारी केले जाते. उत्पन्नाव्यतिरिक्त, सरकारी नोकरांना नॉन-क्रिमी लेयर अंतर्गत येण्यासाठी काही विशिष्ट निकषांचा विचार केला जातो.",
+      "eligiblity": "अर्जदार हा भारताचा नागरिक असावा. अर्जदार हा महाराष्ट्राचा कायमचा रहिवासी असावा.",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "वडिलांचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "वडिलांचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "वडिलांचे ३ वर्षाचे तहसील उत्पन्न प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "वडिलांचे नोकरी करत असतील तर त्याच्ये मागील ३ वर्षाचे पगार पत्रक किंवा फॉर्म नं. १६",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "लाभार्थी आधार कार्ड. टीसी, जातीचे प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "लाभार्थी फोटो ( सेल्फी )",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "whatsappLink": "",
+    "category": "certificate"
+  },
+  {
+    "id": "8",
+    "slug": "30-female-reservation-certificate",
+    "english": {
+      "title": "30% Female Reservation Certificate",
+      "disc": "The basic idea of ​​this bill originated from a constitutional amendment that was passed in the year 1993. Provision was made by this constitutional amendment that one-third of the Sarpanchs of the Gram Panchayat should be reserved for women.",
+      "eligiblity": "-",
+      "document": [
+        {
+          "id": 1,
+          "title": "Father's Aadhaar Card",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": " Father's Voter card",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "Father's ration card",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "Father's 3 years Tehsil Income Certificate",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "If father is employed, his last 1 year salary slip or Form No. 16",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "Beneficiary Aadhaar Card, Voting Card, TC",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "Beneficiary - Photo (Live Selfi)",
+          "options": ""
+        },
+        {
+          "id": 8,
+          "title": "Affidavit on Rs 100 bond paper",
+          "options": ""
+        }
+      ],
+      "photo": ""
+    },
+    "marathi": {
+      "title": "30% महिला आरक्षण",
+      "disc": "या विधेयकाची मूळ कल्पना 1993 मध्ये संमत झालेल्या घटनादुरुस्तीतून उद्भवली आहे. या घटनादुरुस्तीद्वारे ग्रामपंचायतींच्या सरपंचांपैकी एक तृतीयांश महिलांसाठी राखीव असण्याची तरतूद करण्यात आली होती.",
+      "eligiblity": "-",
+      "document": [
+        {
+          "id": 1,
+          "title": "वडिलांचे आधार कार्ड",
+          "options": ""
+        },
+        {
+          "id": 2,
+          "title": "वडिलांचे मतदान कार्ड",
+          "options": ""
+        },
+        {
+          "id": 3,
+          "title": "वडिलांचे रेशन कार्ड",
+          "options": ""
+        },
+        {
+          "id": 4,
+          "title": "वडिलांचे ३ वर्षाचे तहसील उत्पन्न प्रमाणपत्र",
+          "options": ""
+        },
+        {
+          "id": 5,
+          "title": "वडिलांचे नोकरी करत असतील तर त्याच्ये मागील ३ वर्षाचे पगार पत्रक किंवा फॉर्म नं. १६",
+          "options": ""
+        },
+        {
+          "id": 6,
+          "title": "लाभार्थी आधार कार्ड, मतदान कार्ड, टीसी, जातीचे प्रमाणपत्र (लागत असल्यास)",
+          "options": ""
+        },
+        {
+          "id": 7,
+          "title": "लाभार्थी फोटो ( सेल्फी )",
+          "options": ""
+        },
+        {
+          "id": 8,
+          "title": "१०० रु बॉंड पेपर वर शपथपत्र",
           "options": ""
         }
       ],

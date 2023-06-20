@@ -1,4 +1,6 @@
 .container {
+  flex: 1;
+  min-width: 140px;
   padding: 16px;
   background: #1f2937;
   border-radius: 6px;
@@ -13,8 +15,7 @@
 }
 
 .container:hover {
-  /* background: #fff7ed; */
-  background: #f97316;
+  background: #fff7ed;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: 1px solid #fed7aa;
 }

@@ -1,0 +1,124 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--gray600);
+  gap: 6px;
+}
+.header a i {
+  color: var(--primary);
+}
+.header h2 {
+  font-size: 18px;
+  color: var(--gray800);
+}
+.header h2 span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray500);
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0 0px 0;
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* background: blue; */
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 640px) {
+  .container {
+    width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 60px;
+  }
+}
+
+/* Indicator */
+
+@media (min-width: 768px) {
+  /* Arrows */
+  .leftArrow {
+    position: absolute;
+    left: 40px;
+    margin-top: 100px;
+    padding: 10px 10px 6px 10px;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 2;
+    cursor: pointer;
+    border: 1px solid var(--gray200);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .rightArrow {
+    position: absolute;
+    right: 40px;
+    margin-top: 100px;
+    padding: 10px 10px 6px 10px;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 2;
+    cursor: pointer;
+    border: 1px solid var(--gray200);
+    transition: all 0.3s ease-in-out;
+  }
+  .leftArrow i,
+  .rightArrow i {
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .leftArrow:hover,
+  .rightArrow:hover {
+    background: rgba(236, 254, 255, 1);
+    background: var(--primary);
+    border: 1px solid var(--gray300);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .leftArrow:hover i,
+  .rightArrow:hover i {
+    color: #fff;
+  }
+}
