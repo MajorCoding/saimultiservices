@@ -10,7 +10,7 @@ const TopBar = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <p className="text-slate-400 text-sm font-medium">
-                Want urgent any legal certificate? <span>Nikal Jayega.</span>
+                अर्जन्ट प्रमाणपत्र हवे आहे? <span>त्वरित भेटून जातिल</span>
               </p>
               <i className="ph ph-thumbs-up"></i>
             </div>

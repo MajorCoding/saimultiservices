@@ -2,9 +2,9 @@ import React from "react"
 import Container from "./Container"
 import section from "../styles/Section.module.css"
 
-const Section = ({ title, desc, sub, children }) => {
+const Section = ({ title, desc, sub, type, children }) => {
   return (
-    <section className={section.container}>
+    <section className={type == "bg" ? section.special : section.container}>
       <Container>
         <div className={section.wrapper}>
           <div className={section.header}>

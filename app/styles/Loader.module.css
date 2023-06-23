@@ -1,0 +1,24 @@
+.loader {
+  width: 100%;
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray50);
+  transition: all 0.3s ease-in-out;
+}
+.spinner {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  box-shadow: 28px 0px 0 0 rgba(249, 115, 22, 0.2), 22.7px 16.5px 0 0 rgba(249, 115, 22, 0.4),
+    8.68px 26.6px 0 0 rgba(249, 115, 22, 0.6), -8.68px 26.6px 0 0 rgba(249, 115, 22, 0.8),
+    -22.7px 16.5px 0 0 #f97316;
+  animation: spinner-b87k6z 1s infinite linear;
+}
+
+@keyframes spinner-b87k6z {
+  to {
+    transform: rotate(360deg);
+  }
+}

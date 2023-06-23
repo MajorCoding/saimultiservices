@@ -39,8 +39,8 @@ export default async function page({ params }) {
       {Boolean(data) && data.english.title ? (
         <>
           <Breadcrumb title={data.english.title} />
-          <Info data={data.english} />
-          <div className="divider"></div>
+          {/* <Info data={data.english} />
+          <div className="divider"></div> */}
           <Info type="marathi" data={data.marathi} />
         </>
       ) : (

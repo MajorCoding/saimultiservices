@@ -8,9 +8,12 @@ const ContactUs = () => {
       <Container>
         <div className={styles.wrapper}>
           <div className={styles.left}>
-            <h2>Contact us</h2>
-            <p>Have a question or need assistance?</p>
-            <p>Feel free to get in touch with our team. We are here to help you.</p>
+            <h2 style={{ fontSize: 22 }}>Contact us</h2>
+            <p>काही प्रश्न आहे किंवा मदत हवी आहे?</p>
+            <p>
+              खाली दिलेल्या कॉन्टॅक्ट नंबर वर कॉल किंवा व्हाट्सअप वर मोकळ्या मनाने संपर्क करा. आमची
+              टीम मदतीस तत्पर आहे.
+            </p>
             <div className={styles.source}>
               <Link target="_blank" href="tel:9545170763" className={styles.item}>
                 <i className="ph ph-phone-call"></i>

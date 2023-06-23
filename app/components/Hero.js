@@ -10,14 +10,15 @@ const Hero = () => {
       <Container>
         <div className={styles.content}>
           <h1>
-            Welcome to <br /> <span>Shree Sai Multiservices</span>
+            आपले स्वागत आहे
+            <br /> <span>श्री साई मल्टिसर्विसेस</span>
           </h1>
           <p>
-            Where we provide a comprehensive range of services to cater to your various
-            requirements. From income certificates to caste certificates and residential
-            certificates, we are here to assist you with efficiency and expertise. Simplify your
-            paperwork and save time with our reliable solutions. Explore our diverse services and
-            experience convenience at its best.
+            मध्ये, आपल्या विविध आवश्यकतांसाठी आम्ही एक व्यापक सेवा वितरण प्रदान करतो. उत्पन्नाच्या
+            प्रमाणपत्रांपासून ते जात प्रमाणपत्रांपर्यंत आणि निवासी प्रमाणपत्रांपर्यंत, आपल्याला
+            परिपूर्णता आणि विशेषज्ञतेने मदत करण्यासाठी आम्ही येथे आहोत . आपल्या कागदपत्रांची सुलभता
+            आणि वेळ बचावा आमच्या विश्वसनीय उपायांद्वारे सोप्या करा. आमच्या विविध सेवांची तपासा करा
+            आणि सुविधेचे अनुभव करा.
           </p>
         </div>
       </Container>
@@ -26,7 +27,7 @@ const Hero = () => {
           return (
             <HeroCard
               icon="ph-light ph-note"
-              title={item.english.title}
+              title={item.marathi.title}
               to={`/services/${item.slug}`}
             />
           )
