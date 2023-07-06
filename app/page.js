@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import TwoColumn from "./containers/TwoColumn"
 import InfoCard from "./components/InfoCard"
 import ContactUs from "./components/ContactUs"
+import OwnerSection from "./components/OwnerSection"
 
 export const metadata = {
   title: "Sai Multiservices",
@@ -34,6 +35,7 @@ export default function Home() {
         </div>
       </TwoColumn>
       <ContactUs />
+      <OwnerSection />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Container from "../containers/Container"
 import styles from "../styles/Info.module.css"
+import Link from "next/link"
 
 const Info = ({ data, type }) => {
   return (
@@ -22,10 +23,15 @@ const Info = ({ data, type }) => {
                 )
               })}
             </ul>
-            <div className={styles.button}>
+
+            <Link
+              target="_blank"
+              href="https://wa.me/message/LHM2SRWSWRGLD1"
+              className={styles.button}
+            >
               <i className="ph ph-whatsapp-logo"></i>
               <p>{type == "marathi" ? "अधिक माहिती जाणून घेण्यासाठी" : "For more details"} </p>
-            </div>
+            </Link>
           </div>
           <div className={styles.right}>
             <Image
